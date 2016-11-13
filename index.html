@@ -1,5 +1,5 @@
 <!doctype html>
-
+<html>
     <head>
         <meta charset="utf-8">
         <title>Dry Oar Boating | Home</title>
@@ -12,8 +12,11 @@
                 margin: 0 auto;
             }
             
+            img {
+                max-width: 100%;
+            }
+            
             a {
-                color: aqua;
                 text-decoration: : none;
             }
             
@@ -56,22 +59,40 @@
                 text-align: center;
             }
             
-            .leftcolumn {
+            .leftcolumn, .rightcolumn {
                 width: 48%;
-            }
-            
-            .rightcolumn {
-                width: 48%;
+                flex: 1 0 15em;
+                margin: .5em;
             }
             
             #section-four {
                 clear: both;
+                background-color: khaki;
             }
             
             .fullwidth {
                 width: 100%
             }
             
+            #section-one, #section-two {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+            
+            .smallpictures {
+            }
+            
+            .icon {
+                float: right;
+                margin: 1em;
+            }
+            
+            #copyright {
+                display: flex;
+                float: left;
+            }
+
         </style>
     </head>
     
@@ -103,13 +124,13 @@
                 </div>
                 
                 <div class="rightcolumn">
-                    <img src="http://brothert.net/dryoar/images/salmon-boat-beach.jpg" alt="Yellow rafts on the edge of a river.">
+                    <img class="smallpictures" src="http://brothert.net/dryoar/images/salmon-boat-beach.jpg" alt="Yellow rafts on the edge of a river.">
                 </div>
             </section>
             
             <section id="section-two">
                 <div class="leftcolumn">
-                    <img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" alt="Red raft in the middle of river rafting.">
+                    <img class="smallpictures" src="http://brothert.net/dryoar/images/snake-rapid1.jpg" alt="Red raft in the middle of river rafting.">
                 </div>
                 
                 <div class="rightcolumn">
@@ -124,10 +145,10 @@
             </section>
         
             <footer id="section-four">
-                <p>&copy; 2016 Dry Oar || Jordan Parry</p>
-                <a href="https://www.facebook.com/" target="_blank"><img src="facebook%20(1).png" alt="Facebook Icon."></a>
-                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="instagram%20(1).png" alt="Intagram Icon."></a>
-                <a href="https://www.youtube.com/" target="_blank"><img src="youtube%20(1).png" alt="YouTube Icon."></a>
+                <p id="copyright">&copy; 2016 Dry Oar || Jordan Parry</p>
+                <a class="icon" href="https://www.facebook.com/" target="_blank"><img src="facebook%20(1).png" alt="Facebook Icon."></a>
+                <a class="icon" href="https://www.instagram.com/?hl=en" target="_blank"><img src="instagram%20(1).png" alt="Intagram Icon."></a>
+                <a class="icon" href="https://www.youtube.com/" target="_blank"><img src="youtube%20(1).png" alt="YouTube Icon."></a>
             </footer>
         </div>
    </body>
