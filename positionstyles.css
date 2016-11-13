@@ -1,5 +1,8 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+* {
+    box-sizing: border-box;2
+}
     .red1 { 
     width: 100px; 
     height: 100px; 
@@ -152,7 +155,17 @@
     .red6 {
     width: 600px; 
     height: 100px; 
-    background-color: red; 
+    background-color: red;
+        /*
+        width: 100%;
+        height: 100px;
+        display: flex;
+        roaw wrap;
+        border: 1px solid;
+        justify-content: center or space-around or space-between;
+        or flext-start; flex-end
+        align-itmem; 
+        */
     } 
     .green6 {
     width: 200px; 
@@ -160,6 +173,11 @@
     background-color: green;
         float: left;
         z-index: -1;
+        /*
+        width: 200px;
+        height: 200px;
+        float: left;
+        */
      } 
     .yellow6 {
     width: 600px; 
@@ -167,6 +185,10 @@
     background-color: gold;
         position: relative;
         z-index: -2;
+        /*
+        width: 100%
+        height: NoThInG
+        */
     } 
     .blue6 {
     width: 600px; 
@@ -174,6 +196,10 @@
     background-color: blue; 
         positon: relative;
         top: px;
+        /*
+        width: 100%;
+        height:
+        */
     } 
      .activity {
     width: 600px; 
