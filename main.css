@@ -15,7 +15,7 @@ img {
 }
             
 a {
-    text-decoration: : none;
+    text-decoration: none;
 }
             
 body {
@@ -23,9 +23,10 @@ body {
 }
 
 #logo {
-    /* backgroud-color: white */
+    background-color: white;
     position: relative;
-    dosplay: inline-block;
+    display: inline-block;
+    margin-left: 1em;
 }
 
 nav > ul {
@@ -36,20 +37,22 @@ nav > ul {
 }
 
 nav a:link, nav a: visited {
-    /*color: */
-    text-decoration:non;
+    color: purple;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underlin;
-    /*color: */
+    text-decoration: underline;
 }
             
 nav {
-    line-height: 3ems;
+    margin-top: -98px;
+    padding-left: 90px;
+    line-height: 3em;
     color: rgb(150, 0, 0);
-    background-color: rgb(255, 200, 50);              font-size: 1.1em;
+    background-color: rgb(255, 200, 50);              font-size: 1.2em;
 }
+
 #section-two {
     background-color: rgb(255,200,50);*/ 
 }
@@ -72,11 +75,6 @@ h2 {
 section {
     padding: 15px;
 }
-            
-#content {
-    width: 960px;
-    margin: 0 auto;
-}
 
 #section-three {
     text-align: center;
@@ -94,7 +92,10 @@ section {
 }
 
 .fullwidth {
-    width: 100%
+    margin-top: -20px;
+    max-width: 140%;
+    margin-left: -40px;
+    width: 112.5%
 }
             
 #section-one, #section-two {
