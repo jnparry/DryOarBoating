@@ -1,26 +1,26 @@
-            @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Amatic+SC|Anton|Pathway+Gothic+One|Patua+One|Righteous|Russo+One|Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Amatic+SC|Anton|Pathway+Gothic+One|Patua+One|Righteous|Russo+One|Taviraj');
              
 body {
     background-color: rgb(255, 255, 140);
 }
 
-            .content {
-                width: 80%;
-                max-width: 960px;
-                margin: 0 auto;
-            }
+#content {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
             
-            img {
-                max-width: 100%;
-            }
+img {
+    max-width: 100%;
+}
             
-            a {
-                text-decoration: : none;
-            }
+a {
+    text-decoration: : none;
+}
             
-            body {
-                font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
-            }
+body {
+    font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
 
 #logo {
     /* backgroud-color: white */
@@ -37,7 +37,7 @@ nav > ul {
 
 nav a:link, nav a: visited {
     /*color: */
-        text-decoration:non;
+    text-decoration:non;
 }
 
 nav a:hover {
@@ -45,73 +45,70 @@ nav a:hover {
     /*color: */
 }
             
-            nav {
-                line-height: 3ems;
-                color: rgb(150, 0, 0);
-                /*background-color: rgb(255,200,50);*/
-                background-color: rgb(255, 200, 50);
-                font-size: 1.1em;
-            }
-            #section-two {
-                background-color: rgb(255,200,50);*/ 
-            }
-            h1,
-            h2, h3, h4, h5, h6 {
-                color: rgb(161, 0, 0);
-                font-family: "Righteous", Impact,"Charcoal", sans-serif;
-            }
+nav {
+    line-height: 3ems;
+    color: rgb(150, 0, 0);
+    background-color: rgb(255, 200, 50);              font-size: 1.1em;
+}
+#section-two {
+    background-color: rgb(255,200,50);*/ 
+}
+
+h1,
+h2, h3, h4, h5, h6 {
+    color: rgb(161, 0, 0);
+    font-family: "Righteous", Impact,"Charcoal", sans-serif;
+}
             
-            h2 {
-                line-height: 1.5;
-                margin-bottom: 5px;
-            }
+h2 {
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
             
-            .paragraph-two {
-                color: rgb(160, 0, 0);
-            }
+.paragraph-two {
+    color: rgb(160, 0, 0); 
+}
         
-            section {
-                padding: 15px;
-            }
+section {
+    padding: 15px;
+}
             
-            #content {
-                width: 960px;
-                margin: 0 auto;
-            }
-            #section-three {
-                text-align: center;
-            }
+#content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#section-three {
+    text-align: center;
+}
             
-            .leftcolumn, .rightcolumn {
-                width: 48%;
-                flex: 1 0 15em;
-                margin: .5em;
-            }
+.leftcolumn, .rightcolumn {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
             
-            #section-four {
-                clear: both;
-                background-color: khaki;
-            }
+#section-four {
+    clear: both;
+    background-color: khaki;
+}
+
+.fullwidth {
+    width: 100%
+}
             
-            .fullwidth {
-                width: 100%
-            }
+#section-one, #section-two {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+           
+.icon {
+    float: right;
+    margin: 1em;
+}
             
-            #section-one, #section-two {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-            }
-            
-            .smallpictures {
-            }
-            
-            .icon {
-                float: right;
-                margin: 1em;
-            }
-            
-            #copyright {
-                display: flex;
-                float: left;
-            }
+#copyright {
+    display: flex;
+    float: left;
+}
