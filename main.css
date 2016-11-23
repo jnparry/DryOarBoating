@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Amatic+SC|Anton|Pathway+Gothic+One|Patua+One|Righteous|Russo+One|Taviraj');
              
 body {
+    background-color: white;
     background-color: rgb(255, 255, 140);
+    font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
 }
 
 #content {
@@ -19,7 +21,7 @@ a {
 }
             
 body {
-    font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
+   
 }
 
 #logo {
