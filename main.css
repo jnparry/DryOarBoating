@@ -24,6 +24,40 @@ body {
    
 }
 
+#riverpic {
+    float: right;
+    width: 48%;
+}
+
+h1 {
+    color: rgb(160, 0, 0);
+    font-family: "Righteous", Impact,"Charcoal", sans-serif;
+}
+
+#p1 {
+    padding-left: 15px;
+}
+
+#rivers {
+    width: 90%;
+    background-color: rgb(255, 200 ,50);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 5px rgb(160,0,0) solid;
+}
+
+.mySlides {
+    
+}
+
+#title{
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
 #logo {
     background-color: white;
     position: relative;
@@ -60,7 +94,7 @@ nav a:hover {
     text-decoration: underline;
     color: darksalmon;
 }
-            
+  
 nav {
     margin-top: -98px;
     padding-left: 90px;
@@ -92,10 +126,9 @@ nav {
 }
 
 #section-two {
-    background-color: rgb(255,200,50);*/ 
+    background-color: rgb(255,200,50); 
 }
 
-h1,
 h2, h3, h4, h5, h6 {
     color: rgb(161, 0, 0);
     font-family: "Righteous", Impact,"Charcoal", sans-serif;
@@ -128,6 +161,7 @@ section {
     background-color: rgb(160,0,0);
     padding: 15px;
     display: flex;
+    clear: both;
     justify-content: space-between;
     flex-flow: row wrap;
 }  
