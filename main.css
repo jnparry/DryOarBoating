@@ -2,7 +2,7 @@
              
 body {
     background-color: white;
-    background-color: rgb(255, 255, 140);
+    backgroulnd-color: rgb(255, 255, 140);
     font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
 }
 
@@ -24,37 +24,37 @@ body {
    
 }
 
-#riverpic {
-    float: right;
-    width: 48%;
-}
-
 h1 {
     color: rgb(160, 0, 0);
     font-family: "Righteous", Impact,"Charcoal", sans-serif;
+}
+
+.divider {
+	margin-bottom: 60px;
 }
 
 #p1 {
     padding-left: 15px;
 }
 
-#rivers {
+.q1, .q3, .q5 {
+	background-color: rgb(250,200,50);
+    /*border: 5px rgb(160,0,0) solid;*/
+}
+
+#rivers  {
     width: 90%;
-    background-color: rgb(255, 200 ,50);
+    background-color: rgb(250,200,50);
     margin: 0 auto;
     margin-bottom: 30px;
+    /*border: 5px rgb(160,0,0) solid;*/
     border: 5px rgb(160,0,0) solid;
 }
 
-.mySlides {
-    
-}
-
 #title{
-    font-size: 25px;
+    font-size: 22px;
     display: inline-block;
     margin-left: 1.5em;
-    margin-top: -1em;
     margin-bottom: -1em;
 }
 
@@ -82,9 +82,66 @@ nav a: visited {
     text-decoration: none;
 }
 
+.head {
+	text-align: center;
+}
+
+.bar {
+	height: 5px;
+	background-color: rgb(240,230,120);
+	width: 100%;
+	margin-top: 2.5em;
+}
+
+div a {
+	color: black;
+}
+
+#riverpic {
+	margin: 15px 0px 0px 15px;
+    float: right;
+    width: 48%;
+}
+
+#riverpic1 {
+	float: right;
+	width: 48%;
+	margin: 15px 0px 0px 15px;
+}
+
+#smallriverpic {
+	margin: 15px 15px 0px 0px;
+	width: 36%;
+	float: left;
+	margin-top: 10px;
+}
+
+.question {
+    font-family: "Patua One", Taviraj,  "Palatino Linotype", "Book Antiqua", Palantino, serif;
+	width: 100%;
+	/*text-decoration: underline;
+	text-decoration-color: rgb(160,0,0);*/
+}
+
+#rivers0, #rivers20{
+	margin-top: -20px;
+}
+
+.q6 {
+	margin-bottom: 10px;
+}
+
+.indentp {
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.question a:hover {
+	text-decoration: underline;
+	color: darkblue;
+}
+
 nav a {
     margin: 5px;
-    color: black;
     color: rgb(150, 0, 0);
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     /*color: rgb(255, 255, 140);*/
@@ -100,7 +157,7 @@ nav {
     padding-left: 90px;
     line-height: 3em;
     background-color: rgb(160, 0, 0);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 @media (max-width: 400px) {
