@@ -87,6 +87,10 @@ nav a: visited {
 	text-align: center;
 }
 
+.q1, .q2, .q3, .q4, .q5, .q6 {
+	display: inline-block;
+}
+
 .bar {
 	height: 5px;
 	background-color: darkred;
@@ -135,6 +139,10 @@ div a: hover {
 
 #rivers0, #rivers20{
 	background-color: rgb(250,200,50);
+}
+
+#rivers0, #rivers1, #rivers20 {
+	display: inline-block;
 }
 
 .list li{
