@@ -110,18 +110,18 @@ div a: hover {
 #riverpic {
 	margin: 15px 0px 0px 15px;
     float: right;
-    width: 48%;
+    max-width: 48%;
 }
 
 #riverpic1 {
 	float: right;
-	width: 48%;
+	max-width: 48%;
 	margin: 15px 0px 0px 15px;
 }
 
 #smallriverpic {
 	margin: 15px 15px 0px 0px;
-	width: 36%;
+	max-width: 36%;
 	float: left;
 	margin-top: 10px;
 }
